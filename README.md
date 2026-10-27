@@ -127,15 +127,7 @@ cd backend
 npm install
 ```
 
-Create a `.env` file inside the `backend` folder with the following configuration:
-
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/staffsync
-JWT_SECRET=replace_with_a_strong_random_secret
-```
-
-Use your own secure JWT secret. Never publish real secrets or database credentials.
+Use your own secure JWT secret. 
 
 ### 3. Start the Backend
 
